@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: orangered;
+}
+h3 {
+  text-transform: capitalize;
+  text-align: center;
+  grid-column: span 2 / span 2;
+}
+
+form {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  max-width: 724px;
+  margin-inline: auto;
+}
+
+input,
+textarea {
+  height: 2.8rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-inline: 0.75rem;
+  max-width: 100%;
+}
+textarea {
+  height: auto;
+  padding-top: 1rem;
+  grid-column: span 2 / span 2;
+}
+
+button {
+  background: teal;
+  color: white;
+  padding: 1rem 2rem;
+  border: 0;
+  cursor: pointer;
+  margin-top: 2rem;
+  grid-column: span 2 / span 2;
+  margin-inline: auto;
+  max-width: 200px;
+  font-weight: 700;
+  border-radius: 5px;
+}
